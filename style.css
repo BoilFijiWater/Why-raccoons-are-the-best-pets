@@ -4,7 +4,6 @@ h1{
   }
   
   p{
-	text-align: center;
 	font: 2em "comic sans ms", sans-serif;
   }
   
@@ -17,6 +16,11 @@ h1{
   }
   
 	#p1{
-	text-align: left;
+	
+	font: 2em "comic sans ms", sans-serif;
+	}
+
+	#p2{
+	
 	font: 2em "comic sans ms", sans-serif;
 	}
