@@ -23,3 +23,7 @@ h1{
 	#p2{	
 	font: 2em "comic sans ms", sans-serif;
 	}
+	
+	img {
+	display:none;	
+	}
