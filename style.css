@@ -20,19 +20,19 @@ h1{
 	font: 2em "comic sans ms", sans-serif;
 	}
 
-<<<<<<< HEAD
+
 	#p2{	
 	font: 2em "comic sans ms", sans-serif;
 	}
 	
-	img {
+	.hidenraccoons {
 	display:none;	
 	}
-=======
+
 	font: 2em "comic sans ms", sans-serif;
 	}
 	
 #raccoon{
 	display:none;
 }
->>>>>>> f97027914b6eaf6fddbc805b5437ff46a5d1b3bd
+
