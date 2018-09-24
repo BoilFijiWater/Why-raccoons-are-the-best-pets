@@ -13,7 +13,7 @@ $(document).ready(function() {
 	$("#cr").show();	
     });
 	
-	$("#cr").click(function()  {
+	$("#cor").click(function()  {
 	$("#compr").show();	
     });
 	
