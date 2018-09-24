@@ -39,6 +39,7 @@ $(document).ready(function() {
 	
 	$("#rms").click(function()  {
 	$("#movier").show();	
+	
     });
 });
 
