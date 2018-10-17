@@ -1,48 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Page 2 - My Webpage</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Raccoons</a>
-        </div>	
-			<ul class="nav navbar-nav">
-			  <li><a href="index.html">Introduction</a></li>
-            <li><a href="page1.html">Facts Why</a></li>
-            <li class="active"><a href="page2.html">Getting a Raccoon</a></li>
-			</ul>
-		</div>
-    </nav>
-
+{% extends "layout.html"%}
+{% set active_page = "page2" %}
+ {%block title%}Page 2{%endblock%} 
     
     <!--page content-->
-		
-    <h1>How to acquire Raccoon</h1>
-
-	<p id="a">So your convince that a raccoon is the best pets so your job is to acquire one, but yo cant so were here to tell you how to get one.</p>
-	<p id="p1">Step 1. you gotta go to the forest </p>
-	<img src="forest.jpg" alt="forest coon">
-	<p id="p2">Step 2. attract the raccoon with food, you can attract it normal food but just eat half a sandwich and lay it their and you'll be aight.</p>
-	<p id="p2">Step 3. Then when you see one or more find the alpha raccoon, you can tell because hes the huge one.</p>
-	<p id="p2">Step 4. Then when you get to alpha raccoon you gotta box it to show how's boss and if you lose well just repeat step 1 threw 4.</p>
-	<p id="p2">Step 5. After winning the fight it will follow your commands.</p>
-	<p id="p2">Step 6. your all done and just have fun with it, its all yours.</p>
-	<p id="a">What you can do with your raccoon: </p>
-
-	
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IwtdIXWGry4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
-	<img src="forest.jpg" alt="forest coon">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
-</html>
+    {%block content%}
+    <h1>Facts Why</h1>
+    
+    {%endblock%}
